@@ -1,0 +1,138 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap'); */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+span {
+  color: #b0b3b8;
+}
+
+/*  */
+.post {
+  margin: 20px 0;
+  width: 680px;
+  background-color: #242526;
+  color: #fff;
+  border-radius: 6px;
+}
+
+/* INFO */
+.post__ava img {
+  width: 40px;
+  height: 40px;
+}
+
+.post__info {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px 16px 0;
+  margin-bottom: 12px;
+}
+
+.post__info .post__feel {
+  padding: 0 15px;
+}
+
+.post__info .post__feel p {
+  margin-bottom: 5px;
+}
+
+.post__info .post__feel p,
+.post__info .post__feel span {
+  font-size: 0.9rem;
+}
+
+/* POST CAPTION */
+.post__caption {
+  padding: 0 16px;
+  margin-bottom: 12px;
+}
+
+.post__caption p {
+  line-height: 1.3rem;
+}
+
+.post__caption ul {
+  list-style-type: none;
+}
+
+.post__caption ul a {
+  color: hsl(214deg 100% 59%);
+  text-decoration: none;
+}
+
+.post__caption ul a:hover {
+  text-decoration: underline;
+}
+
+/* POST IMG */
+.post__img img {
+  width: 100%;
+  cursor: pointer;
+}
+
+/* POST REACT */
+.post__react {
+  padding: 10px 0;
+  margin: 0 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #3e4042;
+}
+
+.post__react > span {
+  display: flex;
+  align-items: center;
+}
+
+.post__react > span p {
+  margin-left: 5px;
+}
+
+.post__react div {
+  margin-left: auto;
+}
+
+.post__react div a {
+  color: #b0b3b8;
+  text-decoration: none;
+  margin: 0 3px;
+}
+
+.post__react div a:hover {
+  text-decoration: underline;
+}
+
+/* POST FEATURE */
+.post__feature {
+  padding: 0 16px;
+  display: flex;
+}
+
+.post__feature span {
+  flex: 1 0 auto;
+  text-align: center;
+  padding: 9px 0;
+  margin: 5px 0;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+.post__feature span i {
+  margin: 0 5px;
+}
+
+.post__feature span:hover {
+  background-color: #b0b3b823;
+}
